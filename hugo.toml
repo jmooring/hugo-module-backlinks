@@ -1,0 +1,6 @@
+[outputFormats.backlinks]
+mediaType = 'application/json'
+baseName = 'backlinks'
+isPlainText = true
+notAlternative = true
+weight = 1
