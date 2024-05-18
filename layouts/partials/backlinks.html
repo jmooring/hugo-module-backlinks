@@ -1,7 +1,7 @@
 {{- $debug := false }}
 {{- $backlinks := site.Home.Store.Get "backlinks" | uniq  }}
 {{- with (where $backlinks "target" .RelPermalink) }}
-  <nav class="backlinks">
+  <div class="backlinks">
     <div class="backlinks-title">
       {{ or (T "backlinks_title") "Pages that link to this page:" }}
     </div>
@@ -10,7 +10,7 @@
         <li><a href="{{ .source.relPermalink }}">{{ .source.linkTitle }}</a></li>
       {{- end }}
     </ul>
-  </nav>
+  </div>
 {{- end }}
 {{- if $debug }}
   <pre>{{ jsonify (dict "indent" "  ") $backlinks }}</pre>
