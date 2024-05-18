@@ -34,3 +34,11 @@ To use the backlinks partial:
 ```text
 {{ partial "backlinks.html" . }}
 ```
+
+## Try it
+
+```text
+git clone --single-branch -b hugo-github-issue-8077 https://github.com/jmooring/hugo-testing hugo-github-issue-8077
+cd hugo-github-issue-8077
+hugo server
+```
