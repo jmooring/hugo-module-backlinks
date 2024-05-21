@@ -3,7 +3,7 @@
 {{- with (where $backlinks "target" .RelPermalink) }}
   <div class="backlinks">
     <div class="backlinks-title">
-      {{ or (T "backlinks_title") "Pages that link to this page:" }}
+      {{ T "backlinks_title" }}
     </div>
     <ul>
       {{- range (sort . "source.linkTitle" "asc") }}
