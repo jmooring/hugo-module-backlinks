@@ -4,3 +4,6 @@ baseName = 'backlinks'
 isPlainText = true
 notAlternative = true
 weight = 1
+
+[module.hugoVersion]
+min = '0.146.7'
