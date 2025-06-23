@@ -2,7 +2,7 @@
 
 This Hugo module allows you to render a list of pages that link to the current page.
 
-Requires Hugo v0.146.7 or later.
+Requires Hugo v0.147.9 or later.
 
 ## Configuration
 
