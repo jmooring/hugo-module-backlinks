@@ -6,4 +6,4 @@ notAlternative = true
 weight = 1
 
 [module.hugoVersion]
-min = '0.147.9'
+min = '0.148.0'

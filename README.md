@@ -2,7 +2,7 @@
 
 This Hugo module allows you to render a list of pages that link to the current page.
 
-Requires Hugo v0.147.9 or later.
+Requires Hugo v0.148.0 or later.
 
 ## Configuration
 
@@ -21,7 +21,7 @@ Then add this to your site configuration:
 path = 'github.com/jmooring/hugo-module-backlinks'
 
 [markup.goldmark.renderHooks.link]
-enableDefault = true
+useEmbedded = 'always' 
 
 [outputs]
 home = ['html','rss','backlinks']
